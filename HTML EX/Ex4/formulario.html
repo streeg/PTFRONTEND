@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="logo.png">
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="server.html" method="POST">
+
+        <ul>
+            <label for="nome">Nome:</label><br>
+            <input type="nome" name="nome"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email"><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha"><br>
+        </ul>
+
+        <ul>
+            <label for="sexo">Sexo:</label><br><br>
+            <input type="radio" name="sexo" value="Masculino">Masculino<br>
+            <input type="radio" name="sexo" value="Feminino">Feminino<br>
+        </ul>
+
+        <ul>
+            <label for="tecnologias">Tecnologias:</label><br><br>
+            <input type="checkbox" name="HTML" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="checkbox" name="CSS" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="checkbox" name="JAVA" value="JAVA">
+            <label for="JAVA">JAVA</label><br>
+            <input type="checkbox" name="PHP" value="PHP">
+            <label for="PHP">PHP</label>
+        </ul>
+
+        <ul>
+            <textarea rows="4" cols="50"></textarea>
+       <!-- <label for="textarea">Descrição pessoal:</label><br><br>
+       <input type="textarea" name="Textarea"> -->
+   </ul>
+
+   <ul>
+    <label for="idiomas">Opção de idiomas:</label>
+    <select name="idiomas">
+        <option value="pt">Portugues</option>
+        <option value="pt">Ingles</option>
+        <option value="pt">Alemao</option>
+    </select>
+</ul>
+
+<ul>
+    <input type="submit" name="Enviar"><br>
+    <input type="reset" name="Limpar">
+</ul>
+
+</form>
+</body>
+</html>
