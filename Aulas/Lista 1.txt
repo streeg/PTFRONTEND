@@ -1,0 +1,36 @@
+1)
+Control + T = Find File
+
+2)
+Control + Shift + P = Abre a paleta de comandos. Serve para controlar pacotes.
+
+3)
+Para facilitar e agilizar processos triviais.
+
+4)
+Control + D = Select Next, Control + 0 + setas = Tree view, Control + P = Achar qualquer coisa.
+
+5)
+cd cjr/projetos/action_house
+
+6) Cp = Copy this to that folder = CP "NOME_DO_ARQUICO" "PASTA_DESTINO"
+    mv = Move folder or file to folder or file = mv "NOME_DO_ARQUIVO" "PASTA_DESTINO"
+
+7)
+Ambos são escritos para diferentes fins. Os casos de uso são utilizados para atestar acordos entre clientes e desenvolvedores
+Histórias de usuário é uma descrição resumida de alguma funcionalidade do sistema sob o ponto de vista do usuário. "As a type of user, I want goal so that i receive benefit"
+
+8)
+Ela deve ser escrita de maneira em que o desenvolvedor se coloque no lugar do usuário e consiga enxergar um beneficio para si utilizando o produto que irão construir.
+
+9)
+Planejamento da Sprint, Planejamento diário dos Scrums, Desenvolvimento do trabalho, Revisão da Sprint, Retrospectiva da Sprint
+
+10)
+O manifesto ágil visa acompanhar o projeto em partes ao invés de como um todo visando um relacionamento cliente developer mais próximo para evitar conflitos e alterações do programa em tempo real.
+
+11)
+git init, git add "nome_do_arquivo" ou git add '*.extensão', git commit -m "legenda do commit"
+
+12)
+Enviar pequenas e diferentes atualizações de um programa para nuvem salvando um log e adicionando recursos aos poucos para que no final se possa fundir as diferentes atualizações de diferentes programadores em um programa final.

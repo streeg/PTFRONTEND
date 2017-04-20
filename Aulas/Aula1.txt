@@ -1,0 +1,6 @@
+Togglr.com
+Cliente (requisição) http -> DNS -> Servidor Web, persistencia { BD, Servidor de arquivos est. -> Cliente (html,css,js,Json,xml)
+Http: Json, XML, Html  / Css / Javascript
+
+Front end: Cliente: HTML, CSS, Javascript, (framework de JS) JQuery
+Back end: Servidor: Ruby, Ruby on Rails, Banco de Dados (SQL)
