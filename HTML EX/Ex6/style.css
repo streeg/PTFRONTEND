@@ -1,0 +1,26 @@
+
+.site {
+height: 100;
+width: 1000px;
+background-color: #411fef;
+margin: auto;
+}
+
+.topico {
+height: 100;
+width: 1000px;
+background-color: #000168;
+}
+
+
+.conteudo {
+height: 100;
+width: 1000px;
+background-color: #cecee8;
+}
+
+.subconteudo {
+height: 100px;
+width: 1000px;
+background-color: #b6b6c1;
+}
