@@ -1,0 +1,23 @@
+.tes{
+width: 200px;
+height: 100px;
+background-color: purple;
+margin: 0 auto;
+display: block;
+}
+
+.tes2{
+width: 20px;
+height: 100px;
+background-color: blue;
+}
+
+#centered{
+text-align: center;
+color: white;
+}
+
+#p{
+    text-align: right;
+    color: red;
+}
