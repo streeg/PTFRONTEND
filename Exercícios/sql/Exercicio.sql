@@ -76,3 +76,14 @@ SELECT DISTINCT empresa.empregado.codEmp FROM empresa.empregado JOIN empresa.tra
 
 SELECT COUNT (empresa.empregado.nome) FROM empresa.empregado JOIN empresa.departamento ON empresa.empregado.codDepto = empresa.departamento.codDepto WHERE empresa.empregado.codDepto = 4;
 
+-- Questão 18: Obter, a partir da tabela trabalhaEm, os números mínimo, máximo e médio de
+-- horas trabalhadas por empregados em cada projeto.
+-- O resultado deve possuir 4 colunas nomeadas: projeto, minimo, maximo e media.
+-- Dica: use AS para renomear os campos e GROUP BY para agrupar os resultados
+-- por projeto.
+
+SELECT codproj as projeto, min(horas) as minimo, max(horas) as maximo, avg(horas) as media FROM empresa.trabalhaEm GROUP BY codproj;
+
+-- Questão 19: Obter os códigos de projetos cuja média de horas trabalhadas seja maior
+-- que 20. Dica: use HAVING.
+
